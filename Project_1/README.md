@@ -1,14 +1,14 @@
-# Metabolite Analysis Pipeline
+# Metabolite Analysis 
 
-A workflow for metabolomics data.
+A reproduction of the binary classification workflow from a metabolomics study, applied to the MTBLS136 metabolomics dataset using different machine learning algorithms, hyperparameter optimization, and feature‐importance extraction.
 
 ---
 
 ## Quick Start
 1. **Clone:**
    ```bash
-   git clone https://git.imp.fu-berlin.de/adin00/mlails-2025.git
-   cd source
+   git clone https://github.com/a-nadeem9/mlails_2025.git
+   cd mlails_2025\Project_1
    ```
 
 2. **Env setup:**
@@ -16,7 +16,7 @@ A workflow for metabolomics data.
         ```powershell
         python -m venv .venv
         .\.venv\Scripts\Activate.ps1
-        pip install --upgrade pip
+        .venv\Scripts\python.exe -m pip install --upgrade pip
         pip install -r requirements.txt
         ```
 
@@ -24,12 +24,12 @@ A workflow for metabolomics data.
         ```bash
         python3 -m venv .venv
         source .venv/bin/activate
-        pip install --upgrade pip
-        pip install -r requirements.txt
+        .venv/bin/python.exe -m pip install --upgrade pip
+         pip install -r requirements.txt
         ```
 
 3. **Run:**
     ```bash
-    jupyter lab 02_classification_analysis.ipynb
+    jupyter lab
     ```
 
