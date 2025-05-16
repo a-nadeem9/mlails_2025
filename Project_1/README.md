@@ -1,18 +1,21 @@
-# Metabolite Analysis 
+# Metabolite Analysis
 
-A reproduction of the binary classification workflow from a metabolomics study, applied to the MTBLS136 metabolomics dataset using different machine learning algorithms, hyperparameter optimization, and feature‐importance extraction.
+A workflow for metabolomics data.
 
 ---
 
 ## Quick Start
-1. **Clone:**
+
+Open your favorite code editor and follow the steps: 
+
+1. **Clone**
    ```bash
-   git clone https://github.com/a-nadeem9/mlails_2025.git
-   cd mlails_2025\Project_1
+   git clone https://git.imp.fu-berlin.de/adin00/mlails-2025.git
+   cd mlails-2025\Project_1
    ```
 
-2. **Env setup:**
-    - Windows (Powershell):
+2. **Env setup**
+    - Windows (Powershell)
         ```powershell
         python -m venv .venv
         .\.venv\Scripts\Activate.ps1
@@ -20,15 +23,15 @@ A reproduction of the binary classification workflow from a metabolomics study, 
         pip install -r requirements.txt
         ```
 
-    - macOS/Linux:
+    - macOS/Linux
         ```bash
         python3 -m venv .venv
         source .venv/bin/activate
         .venv/bin/python.exe -m pip install --upgrade pip
-         pip install -r requirements.txt
+        pip install -r requirements.txt
         ```
 
-3. **Run:**
+3. **Run**
     ```bash
     jupyter lab
     ```
