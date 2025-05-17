@@ -11,7 +11,7 @@ Open your favorite code editor and follow the steps:
 1. **Clone**
    ```bash
    git clone https://git.imp.fu-berlin.de/adin00/mlails-2025.git
-   cd mlails-2025\Project_1
+   cd mlails-2025\PROJECT_1
    ```
 
 2. **Env setup**
